@@ -1,0 +1,185 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*중앙..인것같음*/
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.costom-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.login-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 96%;
+}
+
+.login-container button:hover {
+        background-color: #0056b3;
+}
+
+.login-option {
+    text-align: left;
+    display: inline-block;
+}
+
+.login-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    margin-right: 10px;
+}
+
+.login-option {
+    margin-left: auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab.active {
+    background-color: #ccc;
+    border-bottom: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.agree-checkbox-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+caption {
+    text-align: left;
+    font-size: 12px;
+}
+
+.agreement1 {
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.agreement2 {
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 10px
+}
+
+.area1 {
+    width: 140px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.area2 {
+    width: 240px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.area3 {
+    width: 120px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+h4, h5 {
+    text-align: left;
+}
+
+h5 {
+    text-align: left;
+    margin-top: 0px;
+}
+
+.table-name {
+    text-align: left;
+    font-size: 16px;
+    background-color: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.information1, .information2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+information1 {
+    width: 100px;
+}
+
+information2 {
+    width: 400px;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
